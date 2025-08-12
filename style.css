@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(lab(70.48% 41.2 -22.49),rgb(220, 101, 109),rgb(197, 7, 89));
+}
+#main{
+    width: 500px;
+    height: 500px;
+    background-color: oklab(63.432% 0.18846 0.05211);
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px rgba(233, 227, 230, 0.3);
+}
+#input{
+    width: 60%;
+    height: 10%;
+    margin-right: 5%;
+    margin-top: 13%;
+    margin-left: 5%;
+    border-color: black;
+    
+
+}
+#btn{
+    height: 10%;
+    width: 20%;
+    background-color: rgb(238, 116, 219);
+    border-color: rgb(214, 183, 207);
+    border-radius: 5%;
+    font-style: bold;
+    font-weight: 1000;
+    font-size: larger;
+    margin-top: 8%;
+}
+#list{
+    width: 80%; ;
+    height:50% ;
+    background-color: aliceblue;
+    margin-top: 10%;
+    margin-left: 10%;
+    overflow: scroll;
+    
+}
+li{
+    margin: 0% 10%;
+}
+#list button{
+    margin: 5%;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+h1{
+    margin: 2% 30%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0% 10%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 0% 5%;
+  }
+}
